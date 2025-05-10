@@ -84,10 +84,10 @@ npm install
 ### 3. Execute o servidor JSON (fake backend)
 
 ```bash
-npx json-server --watch db.json --port 5000
+npm run server
 ```
 
-> Isso inicia uma API REST fake em http://localhost:5000
+> Isso inicia uma API REST fake em http://localhost:5000, por exemplo
 
 ### 4. Execute a aplicação React
 
@@ -106,7 +106,8 @@ npm run dev
 - `npm run dev` – Inicia o servidor de desenvolvimento com Vite
 - `npm run build` – Gera a versão otimizada da aplicação
 - `npm run lint` – Executa o ESLint para encontrar erros no código
-- `json-server --watch db.json` – Inicia o backend fake com os dados de exemplo
+- `npm run preview` – Pré-visualiza a build da aplicação
+- `npm run server` – Inicia o backend fake com os dados localizados em `src/jobs.json` na porta 8000
 
 ---
 
